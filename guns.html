@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>syka blyat</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #0a0a0a, #111);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    color: white;
+}
+
+.card {
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(15px);
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 40px rgba(255,255,255,0.1);
+    animation: fadeIn 1.5s ease forwards;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+</style>
+</head>
+
+<body>
+
+<audio autoplay loop>
+    <source src="https://image2url.com/r2/default/audio/1772341193586-433dd104-7706-4624-9111-b77d918aa76a.mp3" type="audio/mpeg">
+</audio>
+
+<div class="card">
+    <img class="avatar" src="https://i.pinimg.com/736x/90/d9/40/90d940a8cbba8a1420f3eed43598c75e.jpg">
+    <h1>n1kita_andreev</h1>
+    <p>XD</p>
+</div>
+
+</body>
+</html>
